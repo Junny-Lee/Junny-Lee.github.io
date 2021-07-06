@@ -12,6 +12,11 @@
     font-size: 18px;
 }
 
-#image{
-    background-color: pink;
-}
+    #image{
+        background-color: pink;
+    }
+
+        #myName{
+            color: #333536;
+            font-family: 'Times New Roman', Times, serif;
+        }
