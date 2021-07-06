@@ -6,17 +6,29 @@
 #main{
     padding: 5%;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     animation: intro 0.3s both;
     animation-delay: 0.35s;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a4d4e;
 }
+    img{
+        width: 130px;
+        padding: 0% 15% 0% 15%;
+        border-radius: 15px;
+    }
 
-    #image{
-        background-color: pink;
+    #text{
+        /* float: right; */
+        padding-left: 5%;
     }
 
         #myName{
-            color: #333536;
-            font-family: 'Times New Roman', Times, serif;
+            color: #4a4d4e;
+            /* font-family: Arial, Helvetica, sans-serif; */
+        }
+
+        #email{
+            padding-top: 3%;
         }
