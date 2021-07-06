@@ -2,8 +2,13 @@
     padding: 0px;
     margin: 0px;
 }
+
 #main{
     padding: 5%;
     display: flex;
     justify-content: space-around;
+}
+
+#img{
+    width: 130px;
 }
