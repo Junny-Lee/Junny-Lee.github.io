@@ -9,7 +9,7 @@
     justify-content: space-around;
 }
 
-#img{
-    width: 20%;
-    height: auto;
+img{
+    padding: 3%;
+    width: 30%;
 }
