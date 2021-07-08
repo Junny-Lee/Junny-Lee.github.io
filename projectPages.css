@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 5%;
+}
+
+#QuizApp, #MyJourney, #WanderLust, #FastChat{
+    width: 95%;
+}
+
+#heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projTitle{
+    padding-left: 5%;
+}
+
+#MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
+    padding-top: 1%;
+    padding-left: 5%;
+    /* width: 85%; */
+    font-size: larger;
+}
+
+#MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
+    font-size: larger;
+}
+
+.myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
+    padding: 3px 1px 1px 0px;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    width: 95%;
+}
+
+#topTag{
+    margin-left: 5%;
+}
+
