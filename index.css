@@ -5,8 +5,6 @@
 
 #main{
     padding: 5%;
-    /* display: flex;
-    justify-content: left; */
     animation: intro 0.3s both;
     animation-delay: 0.35s;
     font-size: 18px;
@@ -38,7 +36,8 @@
 }
 
 #break{
-    border-bottom: 0.3rem solid #fc41985d;
+    border-bottom: 0.3rem solid #760dbd75;
+    /* border-bottom: 0.3rem solid #fc41985d; */
 }
 
 ul {

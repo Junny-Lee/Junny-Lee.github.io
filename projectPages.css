@@ -27,12 +27,13 @@ ul {
 #MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
     padding-top: 1%;
     padding-left: 5%;
-    /* width: 85%; */
-    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 #MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
-    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 .myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
@@ -43,6 +44,8 @@ ul {
 }
 
 #topTag{
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 5%;
+    font-size: 18px;
 }
 
