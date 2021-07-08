@@ -37,6 +37,10 @@
     padding-top: 3%;
 }
 
+#break{
+    border-bottom: 0.3rem solid #fc41985d;
+}
+
 ul {
     list-style-position: inside;
     padding-left: 5%;
