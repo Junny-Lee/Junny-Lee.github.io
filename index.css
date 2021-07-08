@@ -3,68 +3,203 @@
     margin: 0px;
 }
 
-#main{
-    padding: 5%;
-    animation: intro 0.3s both;
-    animation-delay: 0.35s;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4a4d4e;
+@media only screen and (min-width: 200px){
+    
+    #main{
+        padding: 5%;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4a4d4e;
+    }
+
+    #heading{
+        display: flex;
+        justify-content: left;
+    }
+
+    #myImage{
+        width: 110px;
+    }
+
+    #myInfo{
+        margin-left: 5%;
+    }
+
+    #myName{
+        font-size: 22px;
+        color: #4a4d4e;
+    }
+
+    #email{
+        padding-top: 3%;
+        font-size: 15px;
+    }
+
+    #gitHubLinkedIn{
+        font-size: 15px;
+    }
+
+    .intro{
+        font-size: 15px;
+    }
+
+    #introBreak{
+        display: none;
+    }
+
+    #break{
+        border-bottom: 0.2rem solid #760dbd75;
+        /* border-bottom: 0.3rem solid #fc41985d; */
+    }
+
+    ul {
+        list-style-position: inside;
+        padding-left: 5%;
+    }
+
+    ul li a{
+        font-size: 18px;
+    }
+
+    .projectDesc{
+        margin: 0px 0px 20px 20px;
+        font-size: 15px;
+        padding: 1% 0% 1% 0.5%;
+    }
+
+    .projTitle{
+        padding-left: 5%;
+    }
+
 }
 
-#heading{
-    display: flex;
-    justify-content: left;
-    margin-left: 5%;
+@media only screen and (min-width: 720px){
+
+    #main{
+        padding: 5%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4a4d4e;
+    }
+
+    #heading{
+        display: flex;
+        justify-content: left;
+    }
+
+    #myImage{
+        width: 150px;
+        padding: 0% 15% 0% 15%;
+    }
+
+    #myInfo{
+        margin-left: 5%;
+    }
+
+    #myName{
+        font-size: 28px;
+        color: #4a4d4e;
+    }
+
+    #email{
+        padding-top: 3%;
+    }
+
+    #introBreak{
+        display:inline;
+    }
+
+    #break{
+        border-bottom: 0.3rem solid #760dbd75;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding: 0% 5% 0% 5%;
+    }
+
+    ul li a{
+        font-size: 16px;
+    }
+
+    .projectDesc{
+        margin: 0px 0px 20px 20px;
+        font-size: 16px;
+        padding: 1% 0% 1% 0.5%;
+    }
+
+    .projTitle{
+        padding-left: 5%;
+    }
+
 }
 
-#myImage{
-    width: 130px;
-    padding: 0% 15% 0% 15%;
-}
+@media only screen and (min-width: 1024px){
+    
+    #main{
+        padding: 5%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #4a4d4e;
+    }
 
-#myInfo{
-    margin-left: 5%;
-}
+    #heading{
+        display: flex;
+        justify-content: left;
+    }
 
-#myName{
-    color: #4a4d4e;
-}
+    #myImage{
+        width: 150px;
+        padding: 0% 15% 0% 15%;
+    }
 
-#email{
-    padding-top: 3%;
-}
+    #myInfo{
+        margin-left: 5%;
+    }
 
-#break{
-    border-bottom: 0.3rem solid #760dbd75;
-    /* border-bottom: 0.3rem solid #fc41985d; */
-}
+    #myName{
+        font-size: 34px;
+        color: #4a4d4e;
+    }
 
-ul {
-    list-style-position: inside;
-    padding-left: 5%;
-}
+    #email{
+        font-size: 18px;
+        padding-top: 3%;
+    }
 
-.projectDesc{
-    margin: 0px 0px 20px 20px;
-    font-size: 16px;
-    padding: 1% 0% 1% 0.5%;
-}
+    #gitHubLinkedIn{
+        font-size: 18px;
+    }
 
-.projTitle{
-    padding-left: 5%;
-}
+    .intro{
+        font-size: 18px;
+    }
 
-#MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
-    padding-top: 1%;
-    padding-left: 5%;
-    width: 85%;
-}
+    #introBreak{
+        display:inline;
+    }
 
-.myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
-    padding: 3px 1px 1px 0px;
-    margin-bottom: 1%;
-    margin-left: 5%;
-    width: 85%;
+    #break{
+        border-bottom: 0.3rem solid #760dbd75;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding: 0% 5% 0% 5%;
+    }
+
+    ul li a{
+        font-size: 18px;
+    }
+
+    .projectDesc{
+        margin: 0px 0px 20px 20px;
+        padding: 1% 0% 1% 0.5%;
+    }
+
+    .projTitle{
+        padding-left: 5%;
+    }
+
 }
 

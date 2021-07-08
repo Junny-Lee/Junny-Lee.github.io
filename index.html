@@ -18,14 +18,13 @@
             <div id="myInfo">
                 <h1 id="myName">Junny (Ju Yun) Lee</h1>
                 <p id="email">junny1997@gmail.com</p>
-                <p>
+                <p id="gitHubLinkedIn">
                     <a href="https://github.com/Junny-Lee" target="_blank" rel="noopener noreferrer">GitHub</a> 
                     &nbsp|&nbsp
                     <a href="https://linkedin.com/in/junny-lee" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </p>
                 <br>
-                <p>Hi there! Feel free to scroll through all of my projects!</p>
-                <p>The code for my projects are all on GitHub.</p><br><br>
+                <p class="intro">Hi there! Feel free to scroll through all of my projects! <span id="introBreak"><br></span> The code for my projects are all on GitHub.</p>
             </div>
         </div>
         <br>
@@ -43,151 +42,5 @@
                 <p class="projectDesc">A single-page, real-time chat app using Socket.io, React.js, MongoDB, Express and Node.js</p>
             </ul>
         </div>
-        <!-- <div id="projects">
-            <ul>
-                <li><a href="#MyJourney">MyJourney</a>&nbsp|&nbsp<a href="myJourney.html">link</a></li>
-                <p class="projectDesc">Java/Spring Boot-based app for users to write private and public journals</p>
-                <li><a href="#QuizApp">QuizApp</a>&nbsp|&nbsp<a href="quizApp.html">link</a></li>
-                <p class="projectDesc">A single-page application for a timed trivia game using React.js, MongoDB, Express and Node.js</p>
-                <li><a href="#WanderLust">WanderLust</a>&nbsp|&nbsp<a href="wanderLust.html">link</a></li>
-                <p class="projectDesc">Python/Django-based app for outdoor lovers to explore new and familiar places with like-minded people</p>
-                <li><a href="#FastChat">FastChat</a>&nbsp|&nbsp<a href="fastChat.html">link</a></li>
-                <p class="projectDesc">A single-page, real-time chat app using Socket.io, React.js, MongoDB, Express and Node.js</p>
-            </ul>
-        </div> -->
-        <!-- <br><hr><br>
-        <div id="MyJourney">
-            <h4 class="projTitle">MyJourney</h4>
-            <p>MyJourney is a safe place where users can create journal entries either for themselves or others. The home page looks like this:</p>
-            <img src="MyJourney/home.png" class="myJournalImgs"><br>
-            
-            <p>From here, the user can register or sign in if he/she already has an account. The registration page has validations (including Bcrypt).</p>
-            <img src="MyJourney/registration.png" class="myJournalImgs"><br>
-            
-            <p>For our purposes, let's sign in with my pre-made account.</p>
-            <img src="MyJourney/login.png" class="myJournalImgs"><br>
-            
-            <p>Once logged in, the user can see his/her journal cover (default journal color is purple, but as shown later, the color can be changed in the settings):</p>
-            <img src="MyJourney/frontCoverJournalDefault.png" class="myJournalImgs"><br>
-        
-            <p>When the list icon is clicked, the user can see all of the journal entries in one place. From this page, the user can add a new entry, search for entries by keyword(s), see which entries are important/flagged, flip between private and public, click into individual entries, and go to the Public Board.</p>
-            <img src="MyJourney/allPosts.png" class="myJournalImgs"><br>
-        
-            <p>For example, when the user searches for "important" in the search bar, there are two matched entries. The search matches by the title and/or text of the journal entry (removes duplicates).</p>
-            <img src="MyJourney/matchedEntries.png" class="myJournalImgs"><br>
-            
-            <p>Creating a new entry is easy. Just click on one of the + New Entry buttons on certain pages to be taken to this page:</p>
-            <img src="MyJourney/newPost.png" class="myJournalImgs"><br>
-        
-            <p>Clicking into one of the journal entries takes you to a page that looks like this:</p>
-            <img src="MyJourney/flaggedPost.png" class="myJournalImgs"><br>
-        
-            <p>Let's now go to the Public Board, where posts marked public (not private) from any users can be read. Here the signed in user can go back to his/her private space by pressing on the Personal Board link near the top-right hand corner. Note that the last post shown in this image is a public post by a different user.</p>
-            <img src="MyJourney/ourJourney.png" class="myJournalImgs"><br>
-        
-            <p>Back on the home page (front of the journal), the user can click into the settings icon to change the color of the journal cover:</p>
-            <img src="MyJourney/journalColorDefault.png" class="myJournalImgs"><br>
-            
-            <p>The user can click on any of the color blocks to choose from and the journal cover color will change accordingly. When red is clicked:</p>
-            <img src="MyJourney/journalColorRed.png" class="myJournalImgs"><br>
-            
-            <p>When gray is clicked:</p>
-            <img src="MyJourney/journalColorGray.png" class="myJournalImgs"><br>
-
-            <p>Now the front of the journal accordingly looks like:</p>
-            <img src="MyJourney/frontCoverJournalGray.png" class="myJournalImgs"><br>
-            <br><a href="#main">Back to Top</a>
-        </div>
-        <br><hr><br>
-        <div id="QuizApp">
-            <h4 class="projTitle">QuizApp</h4>
-            <p>QuizApp is a trivia application! The Home Page that the user first sees is:</p>
-            <img src="QuizApp/Home.jpg" class="quizAppImgs"><br>
-
-            <p>Here, the user can pick a category. The Animals category was chosen here.</p>
-            <img src="QuizApp/Categories.jpg" class="quizAppImgs"><br>
-
-            <p>Next, the user can pick the level of difficulty of the quiz. Medium was chosen here. </p>
-            <img src="QuizApp/Difficulty.jpg" class="quizAppImgs"><br>
-
-            <p>When the user is ready, he/she can click on the flashing START button (red and yellow)</p>
-            <img src="QuizApp/Start.jpg" class="quizAppImgs"><br>
-
-            <p>The timer (shown in the nav bar) begins as the quiz begins. </p>
-            <img src="QuizApp/Question1.jpg" class="quizAppImgs"><br>
-
-            <p>The quiz is made up of five questions. A few are shown here:</p>
-            <img src="QuizApp/Question4.jpg" class="quizAppImgs"><br>
-            <img src="QuizApp/Question5.jpg" class="quizAppImgs"><br>
-
-            <p>When the last question has been answered, the timer stops automatically. The user sees how well he/she did (+10 points for every correct answer, -5 points for every wrong answer).</p>
-            <img src="QuizApp/Scoreboard.jpg" class="quizAppImgs"><br>
-
-            <p> When the user scrolls down a little bit, he/she has a chance to directly send me an email by filling out the form.</p>
-            <img src="QuizApp/SendEmail.jpg" class="quizAppImgs"><br>
-
-            <p>The user can also "See Correct Answers." All five questions that were on the quiz are shown along with the user's answers and correct answers.</p>
-            <img src="QuizApp/SeeQAndA.jpg" class="quizAppImgs"><br>
-            <img src="QuizApp/SeeQAndA2.jpg" class="quizAppImgs"><br>
-
-            <p>At any point in the game, the user can restart, by clicking on "Home" in the top right-hand corner. </p>
-            <br><a href="#main">Back to Top</a>
-        </div>
-        <br><hr><br>
-        <div id="WanderLust">
-            <h4 class="projTitle">WanderLust</h4>
-            <p>WanderLust is a place where users can create outdoor events for others to join. 
-            The home page looks like this:</p>
-            <img src="WanderLust/Home.png" class="wanderLustImgs"><br>
-
-            <p>From here, the user can navigate into a category of activities to see the existing events. If not registered/logged in, what the user can do and see are limited. As one can see below, a not-logged in user can't see details of the event.</p>
-            <img src="WanderLust/NotLoggedInView.png" class="wanderLustImgs"><br>
-
-            <p>Let's sign into an existing account to see more features.</p>
-            <img src="WanderLust/Login.png" class="wanderLustImgs"><br>
-
-            <p>Once logged in, user is directed to a page with all the created events. The top table shows all the events that the logged in user has created or joined. The bottom table shows all the other events that the logged in user can join. </p>
-            <img src="WanderLust/AllEvents.png" class="wanderLustImgs"><br>
-
-            <p>Since the user is logged-in, he/she can see the details of any existing events. Let's click into the "Griffith Park" event to see. </p>
-            <img src="WanderLust/SeeEvent.png" class="wanderLustImgs"><br>
-
-            <p>In any specific event page, the user can see an image associated to the event, the address of the event, the number of people who joined the event, the current weather at the location of the event, the weather forecast for future days, and the location of the event on a map. </p>
-            <img src="WanderLust/EventPage.png" class="wanderLustImgs"><br>
-
-            <p>
-                Some other functionalities not shown: 
-                <ul>
-                    <li>Logged-in user can edit or delete events that he/she created themselves.</li>
-                    <li>Logged-in user can create new events.</li>
-                </ul>    
-            </p>
-            <br><a href="#main">Back to Top</a>
-        </div>
-        <br><hr><br>
-        <div id="FastChat">
-            <h4 class="projTitle">FastChat</h4>
-            <p>Like the name suggests, it's fast - no need to login or register. Just type a username and a room to join!</p>
-            <img src="FastChat/Username1.jpg" class="fastChatImgs"><br>
-            <img src="FastChat/JoinRoom.jpg" class="fastChatImgs"><br>
-
-            <p>When you join an empty room, it should look like this:</p>
-            <img src="FastChat/EmptyRoom.jpg" class="fastChatImgs"><br>
-
-            <p>Here, you can start chatting or wait for someone else to join the chatroom. Let's wait for someone else to join:</p>
-            <img src="FastChat/Username2.jpg" class="fastChatImgs"><br>
-
-            <p>As long as they join the same room, you guys can start chatting. </p>
-            <img src="FastChat/JoinRoom.jpg" class="fastChatImgs"><br>
-
-            <p>Here's a screenshot of what Junny (left) and Catherine (right) see on their screens respectively: </p>
-            <img src="FastChat/MessagesInRoom.jpg" class="fastChatImgs"><br>
-            <img src="FastChat/MoreMessagesInRoom.jpg" class="fastChatImgs"><br>
-
-            <p>Once done chatting with a friend or stranger, anyone in the room can choose to clear the chat room. If no one clears the chat room, the chat history will be there for anyone else who joins the specific chatroom!</p>
-        </div>
-        <br><br>
-        <a href="#main">Back to Top</a>
-    </div> -->
 </body>
 </html>
