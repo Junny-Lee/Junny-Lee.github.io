@@ -3,6 +3,21 @@
     margin: 0px;
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#main{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 #sunnies{
     display: flex;
     justify-content: left;
@@ -35,6 +50,10 @@ ul {
     font-family: 'RaphaelIcons';
     padding-left: 5%;
     color: #d3295f;
+}
+
+.headerLinks:hover, #topTag:hover{
+    text-shadow: 0 0 15px #fcb411;
 }
 
 #MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
