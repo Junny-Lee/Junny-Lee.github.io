@@ -41,6 +41,7 @@
     }
 
     .intro{
+        padding-top: 3%;
         font-size: 15px;
     }
 
@@ -144,7 +145,7 @@
 
 }
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1000px){
     
     #main{
         padding: 5%;
