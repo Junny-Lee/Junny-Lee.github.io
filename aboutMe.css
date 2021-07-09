@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 @media only screen and (min-width: 200px){
 
     #header{
@@ -14,7 +15,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 20%;
+        top: 17%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -26,15 +27,24 @@
     }
     
     #aboutMe{
-        width: 100%;
+        /* width: 60%;
         position: absolute;
         top: 55%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
-        display: flex;
-        justify-content: center;
-        font-size: 22px;
+        font-size: 22px; */
+        width: 80%;
+        /* background: rgba(255, 255, 204, 0.5); */
+        position: absolute;
+        top: 42%;
+        transform: translate(10%, 0);
+        text-align: left;
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        font-size: 16px;
+        margin-bottom: 2%;
+        padding: 1.5%;
     }
 
     #myPic {
@@ -152,27 +162,28 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 20%;
+        top: 17%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
         display: flex;
         justify-content: center;
         align-items: center;
-        /* margin-left: 5%; */
         margin-right: 5%;
     }
 
     #aboutMe{
-        width: 100%;
+        width: 50%;
+        /* background: rgba(255, 255, 204, 0.5); */
         position: absolute;
-        top: 55%;
-        text-align: center;
+        top: 48%;
+        transform: translate(50%, 0);
+        text-align: left;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
-        display: flex;
-        justify-content: center;
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 2%;
+        padding: 1.5%;
     }
 
     #myPic{
