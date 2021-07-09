@@ -3,28 +3,10 @@
     margin: 0px;
 }
 
-#triangles{
-    display: flex;
-    justify-content: left;
-    left: 50%;
-}
-
 #sunnies{
     display: flex;
     justify-content: left;
     margin: 5% 0% 0% 5%;
-}
-
-.arrow-down {
-    border-bottom: 20px solid #fc97b9;
-    border-left: 30px solid rgba(0, 0, 0, 0);
-    border-right: 30px solid rgba(0, 0, 0, 0);
-    content: "";
-    display: inline-block;
-    height: 0;
-    vertical-align: top;
-    width: 0;
-    transform: rotate(180deg);
 }
 
 ul {

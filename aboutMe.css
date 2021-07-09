@@ -10,23 +10,47 @@
         position: relative;
         width: 100%;
     }
-    
+
     #body{
         width: 100%;
         position: absolute;
-        top: 35%;
+        top: 20%;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 5%; */
+        margin-right: 5%;
+    }
+    
+    #aboutMe{
+        width: 100%;
+        position: absolute;
+        top: 55%;
+        text-align: center;
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    #myPic {
+        width: 150px;
     }
     
     /* #myName{
-        font-size: 35px;
+        font-size: 30px;
         color: #d3295f;
         font-weight: bold;
         font-family: 'RaphaelIcons';
     } */
+
+    #koreanName{
+        display: none;
+    }
 
     .typewriter {
         font-family: 'RaphaelIcons';
@@ -40,7 +64,7 @@
         letter-spacing: 2px;
         animation: typing 5s steps(30, end), blink .75s step-end infinite;
         white-space: nowrap;
-        font-size: 35px;
+        font-size: 25px;
         font-weight: 700;
         border-right: 4px solid orange;
         box-sizing: border-box;
@@ -128,11 +152,31 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 35%;
+        top: 20%;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 5%; */
+        margin-right: 5%;
+    }
+
+    #aboutMe{
+        width: 100%;
+        position: absolute;
+        top: 55%;
+        text-align: center;
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+    }
+
+    #myPic{
+        width: 210px;
     }
     
     /* #myName{
@@ -141,6 +185,10 @@
         font-weight: bold;
         font-family: 'RaphaelIcons';
     } */
+
+    #koreanName{
+        display: inline;
+    }
 
     .typewriter {
         font-family: 'RaphaelIcons';
@@ -179,10 +227,11 @@
     }
     
     #email{
-        /* display: flex;
-        justify-content: center; */
         margin: 1% 0% 1% 0%;
         font-size: 22px;
+        text-decoration: none;
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
     }
     
     #gitHubLinkedIn{
