@@ -27,13 +27,6 @@
     }
     
     #aboutMe{
-        /* width: 60%;
-        position: absolute;
-        top: 55%;
-        text-align: center;
-        color: #4a4d4e;
-        font-family: 'RaphaelIcons';
-        font-size: 22px; */
         width: 80%;
         /* background: rgba(255, 255, 204, 0.5); */
         position: absolute;
@@ -50,13 +43,6 @@
     #myPic {
         width: 150px;
     }
-    
-    /* #myName{
-        font-size: 30px;
-        color: #d3295f;
-        font-weight: bold;
-        font-family: 'RaphaelIcons';
-    } */
 
     #koreanName{
         display: none;
@@ -189,13 +175,6 @@
     #myPic{
         width: 210px;
     }
-    
-    /* #myName{
-        font-size: 35px;
-        color: #d3295f;
-        font-weight: bold;
-        font-family: 'RaphaelIcons';
-    } */
 
     #koreanName{
         display: inline;

@@ -20,13 +20,6 @@
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
     }
-    
-    /* #myName{
-        font-size: 35px;
-        color: #d3295f;
-        font-weight: bold;
-        font-family: 'RaphaelIcons';
-    } */
 
     .typewriter {
         font-family: 'RaphaelIcons';
@@ -67,6 +60,8 @@
     #email{
         margin: 1% 0% 1% 0%;
         font-size: 22px;
+        text-decoration: none;
+        color: #4a4d4e;
     }
     
     #gitHubLinkedIn{
@@ -134,13 +129,6 @@
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
     }
-    
-    /* #myName{
-        font-size: 35px;
-        color: #d3295f;
-        font-weight: bold;
-        font-family: 'RaphaelIcons';
-    } */
 
     .typewriter {
         font-family: 'RaphaelIcons';
@@ -179,8 +167,6 @@
     }
     
     #email{
-        /* display: flex;
-        justify-content: center; */
         margin: 1% 0% 1% 0%;
         font-size: 22px;
         text-decoration: none;
