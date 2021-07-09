@@ -27,7 +27,7 @@
     }
     
     #aboutMe{
-        width: 80%;
+        width: 85%;
         /* background: rgba(255, 255, 204, 0.5); */
         position: absolute;
         top: 40%;
@@ -163,7 +163,7 @@
         /* background: rgba(255, 255, 204, 0.5); */
         position: absolute;
         top: 48%;
-        transform: translate(50%, 0);
+        transform: translate(54%, 0);
         text-align: left;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
