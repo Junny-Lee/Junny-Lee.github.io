@@ -160,12 +160,12 @@
     }
 
     #myImage{
-        width: 150px;
+        width: 170px;
         padding: 0% 15% 0% 15%;
     }
 
     #myInfo{
-        margin-left: 5%;
+        margin-left: 3%;
     }
 
     #myName{
@@ -197,7 +197,6 @@
     #projects{
         display: flex;
         justify-content: space-between;
-        padding-right: 5%;
     }
 
     ul {
