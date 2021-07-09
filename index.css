@@ -9,10 +9,6 @@
     position: relative;
     width: 100%;
 }
-/* .headerImg{
-    display: block;
-    width: 10%;
-} */
 
 .arrow-down {
     border-bottom: 100px solid #fc97b9;
@@ -43,9 +39,23 @@
     font-family: 'RaphaelIcons';
 }
 
-#email, #gitHubLinkedIn{
+#email{
     margin: 1% 0% 1% 0%;
     font-size: 22px;
+}
+
+#gitHubLinkedIn{
+    margin: 1% 0% 1% 0%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gitHubLinkedIn a{
+    text-decoration: none;
+    color: #d3295f;
+    font-family: 'RaphaelIcons';
 }
 
 #intro{
