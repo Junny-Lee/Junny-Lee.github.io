@@ -246,6 +246,7 @@
         height: 50px;
         padding: auto;
         background-color: #d3295f;
+        /* background-color: #fff2db; */
         border: none;
     }
     
@@ -253,6 +254,7 @@
         text-decoration: none;
         font-size: 20px;
         color: white;
+        /* color: #4a4d4e; */
         font-family: 'RaphaelIcons';
     }
 
