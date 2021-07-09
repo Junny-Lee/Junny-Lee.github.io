@@ -20,6 +20,11 @@ ul {
     align-items: center;
 }
 
+#links{
+    display: flex;
+    display: right;
+}
+
 .projTitle{
     padding-left: 5%;
 }
