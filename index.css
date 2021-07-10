@@ -128,6 +128,14 @@
         font-family: 'RaphaelIcons';
     }
 
+    .barLinks:hover{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        font-family: 'RaphaelIcons';
+        text-shadow: 0 0 25px #fcb411;
+    }
+
 }
 
 @media only screen and (min-width: 720px){
