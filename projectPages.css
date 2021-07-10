@@ -24,6 +24,10 @@
     margin: 5% 0% 0% 5%;
 }
 
+#sunnies:hover{
+    opacity: 50%;
+}
+
 ul {
     list-style-position: inside;
     padding-left: 5%;
