@@ -25,6 +25,10 @@
         position: relative;
         width: 100%;
     }
+
+    #header:hover{
+        opacity: 50%;
+    }
     
     #body{
         width: 100%;
@@ -160,6 +164,10 @@
         justify-content: center;
         position: relative;
         width: 100%;
+    }
+
+    #header:hover{
+        opacity: 50%;
     }
     
     #body{
