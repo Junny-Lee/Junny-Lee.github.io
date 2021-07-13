@@ -100,6 +100,12 @@
         color: #d3295f;
         font-family: 'RaphaelIcons';
     }
+
+    #me{
+        font-family: 'RaphaelIcons';
+        color: #4a4d4e;
+        font-size: 15px;
+    }
     
     #intro{
         font-size: 22px;
@@ -240,6 +246,12 @@
         color: #d3295f;
         font-family: 'RaphaelIcons';
     }
+
+    #me{
+        font-family: 'RaphaelIcons';
+        color: #4a4d4e;
+        font-size: 16px;
+    }
     
     #intro{
         font-size: 22px;
@@ -262,7 +274,6 @@
         height: 50px;
         padding: auto;
         background-color: #d3295f;
-        /* background-color: #fff2db; */
         border: none;
     }
     
@@ -270,7 +281,6 @@
         text-decoration: none;
         font-size: 20px;
         color: white;
-        /* color: #4a4d4e; */
         font-family: 'RaphaelIcons';
     }
 
