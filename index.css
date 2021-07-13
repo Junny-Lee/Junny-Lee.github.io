@@ -258,12 +258,17 @@
         font-size: 16px;
     }
     
-    #intro{
-        font-size: 22px;
+    .intro{
+        font-size: 19px;
     }
 
     #introBreak{
         display: block;
+    }
+
+    #aboutMeLink, #aboutMeLink:hover{
+        color: #d3295f;
+        text-decoration: none; 
     }
     
     #navBar{
