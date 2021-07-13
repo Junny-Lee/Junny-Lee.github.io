@@ -177,11 +177,15 @@
         text-align: center;
     }
 
+    #navBar{
+        margin:auto;
+    }
+
     #backButton, #backButton:hover{
         color: #fcb411;
         text-decoration: none;
         font-family: 'RaphaelIcons';
-        padding-top: 35%;
+        padding-top: 5%;
         font-size: 19px;
     }
 
@@ -192,7 +196,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 25%;
+        top: 24%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -205,7 +209,7 @@
     #aboutMe{
         width: 50%;
         position: absolute;
-        top: 54%;
+        top: 55%;
         transform: translate(54%, 0);
         text-align: left;
         color: #4a4d4e;
