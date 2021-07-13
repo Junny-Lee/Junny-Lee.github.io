@@ -3,89 +3,182 @@
     margin: 0px;
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
+@media only screen and (min-width: 200px){
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
-    100% {
-        opacity: 1;
+
+    #main{
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
     }
+
+    #sunnies{
+        display: flex;
+        justify-content: left;
+        margin: 5% 0% 0% 5%;
+    }
+
+    #sunnies:hover{
+        opacity: 50%;
+    }
+
+    ul {
+        list-style-position: inside;
+        padding-left: 5%;
+    }
+
+    #QuizApp, #MyJourney, #WanderLust, #FastChat{
+        width: 95%;
+        font-family: 'RaphaelIcons';
+        color: #4a4d4e;
+    }
+
+    #heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #links{
+        display: flex;
+        display: right;
+        font-size: 18px;
+    }
+
+    .projTitle{
+        font-family: 'RaphaelIcons';
+        padding-left: 5%;
+        color: #d3295f;
+        font-size: 25px;
+    }
+
+    .headerLinks:hover, #topTag:hover{
+        text-shadow: 0 0 15px #fcb411;
+    }
+
+    #MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
+        padding: 2% 0% 0.5% 0%;
+        padding-left: 5%;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+    }
+
+    #MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        text-decoration: none;
+        color: #d3295f;
+    }
+
+    .myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
+        padding: 3px 1px 1px 0px;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        width: 95%;
+    }
+
+    #topTag{
+        font-family: 'RaphaelIcons';
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
 }
 
-#main{
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
+@media only screen and (min-width: 720px){
+    
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
-#sunnies{
-    display: flex;
-    justify-content: left;
-    margin: 5% 0% 0% 5%;
-}
+    #main{
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
 
-#sunnies:hover{
-    opacity: 50%;
-}
+    #sunnies{
+        display: flex;
+        justify-content: left;
+        margin: 5% 0% 0% 5%;
+    }
 
-ul {
-    list-style-position: inside;
-    padding-left: 5%;
-}
+    #sunnies:hover{
+        opacity: 50%;
+    }
 
-#QuizApp, #MyJourney, #WanderLust, #FastChat{
-    width: 95%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #4a4d4e;
-}
+    ul {
+        list-style-position: inside;
+        padding-left: 5%;
+    }
 
-#heading{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    #QuizApp, #MyJourney, #WanderLust, #FastChat{
+        width: 95%;
+        font-family: 'RaphaelIcons';
+        color: #4a4d4e;
+    }
 
-#links{
-    display: flex;
-    display: right;
-}
+    #heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.projTitle{
-    font-family: 'RaphaelIcons';
-    padding-left: 5%;
-    color: #d3295f;
-}
+    #links{
+        display: flex;
+        display: right;
+    }
 
-.headerLinks:hover, #topTag:hover{
-    text-shadow: 0 0 15px #fcb411;
-}
+    .projTitle{
+        font-family: 'RaphaelIcons';
+        padding-left: 5%;
+        color: #d3295f;
+        font-size: 35px;
+    }
 
-#MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
-    padding: 2% 0% 0.5% 0%;
-    padding-left: 5%;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'RaphaelIcons';
-    font-size: 18px;
-}
+    .headerLinks:hover, #topTag:hover{
+        text-shadow: 0 0 15px #fcb411;
+    }
 
-#MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
-    /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'RaphaelIcons';
-    font-size: 18px;
-    text-decoration: none;
-    color: #d3295f;
-}
+    #MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
+        padding: 2% 0% 0.5% 0%;
+        padding-left: 5%;
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
+    }
 
-.myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
-    padding: 3px 1px 1px 0px;
-    margin-bottom: 1%;
-    margin-left: 5%;
-    width: 95%;
-}
+    #MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
+        text-decoration: none;
+        color: #d3295f;
+    }
 
-#topTag{
-    font-family: 'RaphaelIcons';
-    margin-left: 5%;
-    font-size: 18px;
+    .myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
+        padding: 3px 1px 1px 0px;
+        margin-bottom: 1%;
+        margin-left: 5%;
+        width: 95%;
+    }
+
+    #topTag{
+        font-family: 'RaphaelIcons';
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
 }
 
