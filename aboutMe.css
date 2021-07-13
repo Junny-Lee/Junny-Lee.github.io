@@ -47,7 +47,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 21%;
+        top: 23%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -60,7 +60,7 @@
     #aboutMe{
         width: 85%;
         position: absolute;
-        top: 44%;
+        top: 47%;
         transform: translate(10%, 0);
         text-align: left;
         color: #4a4d4e;
