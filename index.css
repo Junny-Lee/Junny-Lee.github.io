@@ -33,7 +33,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 35%;
+        top: 31%;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         color: #4a4d4e;
@@ -107,8 +107,13 @@
         font-size: 15px;
     }
     
-    #intro{
-        font-size: 22px;
+    .intro{
+        font-size: 18px;
+        padding: 0% 2%;
+    }
+
+    #introBreak{
+        display: none;
     }
     
     #navBar{
@@ -255,6 +260,10 @@
     
     #intro{
         font-size: 22px;
+    }
+
+    #introBreak{
+        display: block;
     }
     
     #navBar{
