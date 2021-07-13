@@ -29,6 +29,17 @@
     #header:hover{
         opacity: 50%;
     }
+
+    #topNav{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0% 2% 0%;
+    }
+
+    .topNavLinks{
+        margin: 0 20px;
+        font-family: 'RaphaelIcons';
+    }
     
     #body{
         width: 100%;
@@ -116,8 +127,13 @@
         display: none;
     }
 
-    #aboutMeLink, #aboutMeLink:hover{
-        color: #d3295f;
+    #aboutMeLink{
+        color: #4a4d4e;
+        text-decoration: none; 
+    }
+
+    #aboutMeLink:hover{
+        text-shadow: 0 0 15px #fcb411;
         text-decoration: none; 
     }
     
@@ -186,10 +202,23 @@
         opacity: 50%;
     }
     
+    #topNav{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0% 2% 0%;
+    }
+
+    .topNavLinks, .topNavLinks:hover{
+        margin: 0 22px;
+        font-family: 'RaphaelIcons';
+        text-decoration: none;
+        color: #4a4d4e;
+    }
+
     #body{
         width: 100%;
         position: absolute;
-        top: 35%;
+        top: 37%;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         color: #4a4d4e;
@@ -271,8 +300,13 @@
         display: block;
     }
 
-    #aboutMeLink, #aboutMeLink:hover{
-        color: #d3295f;
+    #aboutMeLink{
+        color: #4a4d4e;
+        text-decoration: none; 
+    }
+
+    #aboutMeLink:hover{
+        text-shadow: 0 0 15px #fcb411;
         text-decoration: none; 
     }
     

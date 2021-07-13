@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 200px){
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    #main{
+        animation: fadeInAnimation ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        background-color: white;
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+    }
+
+    #header{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+
+    #sun{
+        text-align: center;
+    }
+
+    #backButton, #backButton:hover{
+        color: #fcb411;
+        text-decoration: none;
+    }
+
+    #sun:hover{
+        opacity: 50%;
+    }
+
+    #subheader{
+        padding: 5%;
+        background-color: #fff2db;
+        border-top: rgba(0,0,0,.125) solid 1px;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+    }
+
+    #title{
+        /* margin: auto 5%; */
+        color: #d3295f;
+        font-family: 'RaphaelIcons';
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    #listOfProjects{
+        padding: 0.4% 5%;
+    }
+
+    .projectDiv{
+        display: flex;
+        justify-content: center;
+        margin: 2% auto;
+        padding-bottom: 2%;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+    }
+
+    .projectImgs{
+        width: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 720px){
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    #main{
+        animation: fadeInAnimation ease 1s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        background-color: white;
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+    }
+
+    #header{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+    }
+
+    #sun{
+        text-align: center;
+    }
+
+    #backButton, #backButton:hover{
+        color: #fcb411;
+        text-decoration: none;
+    }
+
+    #sun:hover{
+        opacity: 50%;
+    }
+
+    #subheader{
+        padding: 5%;
+        background-color: #fff2db;
+        border-top: rgba(0,0,0,.125) solid 1px;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+    }
+
+
+    #title{
+        color: #d3295f;
+        font-family: 'RaphaelIcons';
+        font-size: 35px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    #listOfProjects{
+        padding: 0.4% 5%;
+    }
+
+    .projectDiv{
+        display: flex;
+        justify-content: center;
+        margin: 2% auto;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+        width: 65%;
+    }
+
+    .projectImgs{
+        width: 300px;
+    }
+
+    .projectTitle{
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 1%;
+    }
+
+    .goToProject{
+        color: #d3295f;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+    }
+
+    .goToProject:hover{
+        text-decoration: none;
+        color: #d3295f;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        text-shadow: 0 0 15px #fcb411;
+    }
+
+    .projectDesc{
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 2%;
+    }
+
+}
