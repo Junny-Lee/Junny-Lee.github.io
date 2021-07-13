@@ -44,19 +44,20 @@
     }
 
     #subheader{
-        padding: 5%;
-        background-color: #fff2db;
+        padding: 3% 5%;
+        margin: 1.4% 0%;
+        background-color: #faf8f5;
         border-top: rgba(0,0,0,.125) solid 1px;
         border-bottom: rgba(0,0,0,.125) solid 1px;
     }
 
     #title{
-        /* margin: auto 5%; */
         color: #d3295f;
         font-family: 'RaphaelIcons';
-        font-size: 25px;
+        font-size: 35px;
         letter-spacing: 2px;
         font-weight: 700;
+        text-align: center;
     }
 
     #listOfProjects{
@@ -118,12 +119,12 @@
     }
 
     #subheader{
-        padding: 5%;
-        background-color: #fff2db;
+        padding: 3% 5%;
+        margin: 1.4% 0%;
+        background-color: #faf8f5;
         border-top: rgba(0,0,0,.125) solid 1px;
         border-bottom: rgba(0,0,0,.125) solid 1px;
     }
-
 
     #title{
         color: #d3295f;
@@ -131,6 +132,7 @@
         font-size: 35px;
         letter-spacing: 2px;
         font-weight: 700;
+        text-align: center;
     }
 
     #listOfProjects{

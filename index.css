@@ -36,15 +36,17 @@
         margin: 2% 0% 2% 0%;
     }
 
-    .topNavLinks{
-        margin: 0 20px;
+    .topNavLinks, .topNavLinks:hover{
+        margin: 0 22px;
         font-family: 'RaphaelIcons';
+        text-decoration: none;
+        color: #4a4d4e;
     }
     
     #body{
         width: 100%;
         position: absolute;
-        top: 31%;
+        top: 37%;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         color: #4a4d4e;
@@ -63,7 +65,7 @@
         letter-spacing: 2px;
         animation: typing 5s steps(30, end), blink .75s step-end infinite;
         white-space: nowrap;
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 700;
         border-right: 4px solid orange;
         box-sizing: border-box;
@@ -121,6 +123,8 @@
     .intro{
         font-size: 18px;
         padding: 0% 2%;
+        font-family: 'RaphaelIcons';
+        color: #4a4d4e;
     }
 
     #introBreak{
@@ -135,41 +139,6 @@
     #aboutMeLink:hover{
         text-shadow: 0 0 15px #fcb411;
         text-decoration: none; 
-    }
-    
-    #navBar{
-        position: absolute;
-        bottom: 0;
-        height: 50px;
-        width: 100%;
-        background-color: #d3295f;
-    }
-    
-    .btn-group{
-        width: 100%;
-        margin: auto;
-    }
-    
-    .btn.btn-secondary, .btn.btn-secondary:hover{
-        height: 50px;
-        padding: auto;
-        background-color: #d3295f;
-        border: none;
-    }
-    
-    .barLinks{
-        text-decoration: none;
-        font-size: 16px;
-        color: white;
-        font-family: 'RaphaelIcons';
-    }
-
-    .barLinks:hover{
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        font-family: 'RaphaelIcons';
-        text-shadow: 0 0 25px #fcb411;
     }
 
 }
@@ -294,6 +263,9 @@
     
     .intro{
         font-size: 19px;
+        font-family: 'RaphaelIcons';
+        color: #4a4d4e;
+        padding: 0% 2%;
     }
 
     #introBreak{
@@ -310,7 +282,7 @@
         text-decoration: none; 
     }
     
-    #navBar{
+    /* #navBar{
         position: absolute;
         bottom: 0;
         height: 50px;
@@ -343,6 +315,6 @@
         color: white;
         font-family: 'RaphaelIcons';
         text-shadow: 0 0 25px #fcb411;
-    }
+    } */
 
 }
