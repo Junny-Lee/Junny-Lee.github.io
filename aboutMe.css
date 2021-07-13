@@ -6,7 +6,7 @@
 @media only screen and (min-width: 200px){
 
     #bigBody{
-        background-color: #fff2db;
+        background-color: #faf8f5;
     }
 
     @keyframes fadeInAnimation {
@@ -148,7 +148,7 @@
 @media only screen and (min-width: 720px){
 
     #bigBody{
-        background-color: #fff2db;
+        background-color: #faf8f5;
     }
 
     @keyframes fadeInAnimation {
