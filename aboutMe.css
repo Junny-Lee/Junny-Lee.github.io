@@ -38,7 +38,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 17%;
+        top: 20%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -195,6 +195,15 @@
         width: 100%;
     }
 
+    #sun{
+        text-align: center;
+    }
+
+    #backButton, #backButton:hover{
+        color: #fcb411;
+        text-decoration: none;
+    }
+
     #sun:hover{
         opacity: 50%;
     }
@@ -202,7 +211,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 17%;
+        top: 20%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
