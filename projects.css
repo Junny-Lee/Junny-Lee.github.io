@@ -37,6 +37,10 @@
     #backButton, #backButton:hover{
         color: #fcb411;
         text-decoration: none;
+        font-family: 'RaphaelIcons';
+        margin: 2% 0% 2% 0%;
+        padding-top: 5%;
+        font-size: 18px;
     }
 
     #sun:hover{
@@ -45,7 +49,7 @@
 
     #subheader{
         padding: 3% 5%;
-        margin: 1.4% 0%;
+        margin: 4% 0% 0% 0%;
         background-color: #faf8f5;
         border-top: rgba(0,0,0,.125) solid 1px;
         border-bottom: rgba(0,0,0,.125) solid 1px;
@@ -54,26 +58,61 @@
     #title{
         color: #d3295f;
         font-family: 'RaphaelIcons';
-        font-size: 35px;
+        font-size: 25px;
         letter-spacing: 2px;
         font-weight: 700;
         text-align: center;
     }
 
     #listOfProjects{
+        display: none;
+    }
+
+    #listOfProjectsMobileVersion{
+        display: block;
         padding: 0.4% 5%;
     }
 
-    .projectDiv{
-        display: flex;
-        justify-content: center;
+    .projectDivMobile{
+        text-align: center;
         margin: 2% auto;
-        padding-bottom: 2%;
         border-bottom: rgba(0,0,0,.125) solid 1px;
+        width: 95%;
+        padding: 7% 0% 2% 0%;
     }
 
-    .projectImgs{
-        width: 200px;
+    .projectImgsMobile{
+        width: 240px;
+    }
+
+    .projectTitleMobile{
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 1%;
+    }
+
+    .goToProjectMobile{
+        color: #d3295f;
+        font-family: 'RaphaelIcons';
+        font-size: 17px;
+    }
+
+    .goToProjectMobile:hover{
+        text-decoration: none;
+        color: #d3295f;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        text-shadow: 0 0 15px #fcb411;
+    }
+
+    .projectDescMobile{
+        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 2%;
     }
 
 }
@@ -112,6 +151,9 @@
     #backButton, #backButton:hover{
         color: #fcb411;
         text-decoration: none;
+        font-family: 'RaphaelIcons';
+        padding-top: 35%;
+        font-size: 19px;
     }
 
     #sun:hover{
@@ -120,7 +162,7 @@
 
     #subheader{
         padding: 3% 5%;
-        margin: 1.4% 0%;
+        margin: 1.4% 0% 0% 0%;
         background-color: #faf8f5;
         border-top: rgba(0,0,0,.125) solid 1px;
         border-bottom: rgba(0,0,0,.125) solid 1px;
@@ -136,7 +178,12 @@
     }
 
     #listOfProjects{
+        display:block;
         padding: 0.4% 5%;
+    }
+
+    #listOfProjectsMobileVersion{
+        display: none;
     }
 
     .projectDiv{
@@ -145,6 +192,7 @@
         margin: 2% auto;
         border-bottom: rgba(0,0,0,.125) solid 1px;
         width: 65%;
+        padding: 0.7% 0% 3% 0%;
     }
 
     .projectImgs{
