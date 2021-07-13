@@ -31,6 +31,15 @@
         width: 100%;
     }
 
+    #sun{
+        text-align: center;
+    }
+
+    #backButton, #backButton:hover{
+        color: #fcb411;
+        text-decoration: none;
+    }
+
     #sun:hover{
         opacity: 50%;
     }
@@ -67,8 +76,13 @@
         border-radius: 5px;
     }
 
-    #koreanName{
-        display: none;
+    /* #koreanName{
+        display: inline;
+    } */
+
+    #namePronounciation{
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
     }
 
     .typewriter {
@@ -240,8 +254,13 @@
         border-radius: 5px;
     }
 
-    #koreanName{
+    /* #koreanName{
         display: inline;
+    } */
+
+    #namePronounciation{
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
     }
 
     .typewriter {
