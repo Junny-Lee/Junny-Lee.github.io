@@ -20,13 +20,12 @@
         animation-fill-mode: forwards;
     }
 
-    #sunnies{
+    #header{
         display: flex;
-        justify-content: left;
-        margin: 5% 0% 0% 5%;
+        justify-content: center;
     }
 
-    #sunnies:hover{
+    #header:hover{
         opacity: 50%;
     }
 
@@ -35,60 +34,64 @@
         padding-left: 5%;
     }
 
-    #QuizApp, #MyJourney, #WanderLust, #FastChat{
-        width: 95%;
-        font-family: 'RaphaelIcons';
-        color: #4a4d4e;
-    }
-
     #heading{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        background-color: #faf8f5;
+        border-top:rgba(0,0,0,.125) solid 1px;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+        padding: 3% 5%;
+        margin: 2% 0% 0% 0%;
     }
 
-    #links{
+    #links, #links:hover{
         display: flex;
-        display: right;
-        font-size: 18px;
+        justify-content: center;
+        margin-top: 0.6%;
+        /* padding-left: 5%; */
     }
 
     .projTitle{
         font-family: 'RaphaelIcons';
-        padding-left: 5%;
+        /* padding-left: 5%; */
         color: #d3295f;
         font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    .headerLinks{
+        color: #fcb411;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: 'RaphaelIcons';
     }
 
     .headerLinks:hover, #topTag:hover{
-        text-shadow: 0 0 15px #fcb411;
+        text-shadow: 0 0 15px #ebe3d8;
     }
 
     #MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
         padding: 2% 0% 0.5% 0%;
-        padding-left: 5%;
+        padding: 3% 5% 1% 5%;
         font-family: 'RaphaelIcons';
         font-size: 20px;
-    }
-
-    #MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
-        font-family: 'RaphaelIcons';
-        font-size: 20px;
-        text-decoration: none;
-        color: #d3295f;
     }
 
     .myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
         padding: 3px 1px 1px 0px;
         margin-bottom: 1%;
-        margin-left: 5%;
-        width: 95%;
+        margin: 0% 5% 0% 5%;
+        width: 90%;
     }
 
     #topTag{
         font-family: 'RaphaelIcons';
         margin-left: 5%;
         font-size: 18px;
+        text-decoration: none;
+        color: #fcb411;
     }
 
 }
@@ -110,13 +113,12 @@
         animation-fill-mode: forwards;
     }
 
-    #sunnies{
+    #header{
         display: flex;
-        justify-content: left;
-        margin: 5% 0% 0% 5%;
+        justify-content: center;
     }
 
-    #sunnies:hover{
+    #header:hover{
         opacity: 50%;
     }
 
@@ -125,59 +127,64 @@
         padding-left: 5%;
     }
 
-    #QuizApp, #MyJourney, #WanderLust, #FastChat{
-        width: 95%;
-        font-family: 'RaphaelIcons';
-        color: #4a4d4e;
-    }
-
     #heading{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        background-color: #faf8f5;
+        border-top:rgba(0,0,0,.125) solid 1px;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+        padding: 3% 5%;
+        margin: 2% 0% 0% 0%;
     }
 
-    #links{
+    #links, #links:hover{
         display: flex;
-        display: right;
+        justify-content: center;
+        /* padding-left: 5%; */
+        margin-top: 0.6%;
     }
 
     .projTitle{
         font-family: 'RaphaelIcons';
-        padding-left: 5%;
+        /* padding-left: 5%; */
         color: #d3295f;
         font-size: 35px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    .headerLinks{
+        color: #fcb411;
+        font-size: 18px;
+        text-decoration: none;
+        font-family: 'RaphaelIcons';
     }
 
     .headerLinks:hover, #topTag:hover{
-        text-shadow: 0 0 15px #fcb411;
+        text-shadow: 0 0 15px #d4b079;
     }
 
     #MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
         padding: 2% 0% 0.5% 0%;
-        padding-left: 5%;
+        padding: 3% 5% 1% 5%;
         font-family: 'RaphaelIcons';
         font-size: 22px;
-    }
-
-    #MyJourney a, #WanderLust a, #QuizApp a, #FastChat a{
-        font-family: 'RaphaelIcons';
-        font-size: 22px;
-        text-decoration: none;
-        color: #d3295f;
     }
 
     .myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
         padding: 3px 1px 1px 0px;
         margin-bottom: 1%;
-        margin-left: 5%;
-        width: 95%;
+        margin: 0% 5% 0% 5%;
+        width: 90%;
     }
 
     #topTag{
         font-family: 'RaphaelIcons';
         margin-left: 5%;
         font-size: 18px;
+        text-decoration: none;
+        color: #fcb411;
     }
 
 }
