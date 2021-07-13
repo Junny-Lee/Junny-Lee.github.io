@@ -115,6 +115,11 @@
     #introBreak{
         display: none;
     }
+
+    #aboutMeLink, #aboutMeLink:hover{
+        color: #d3295f;
+        text-decoration: none; 
+    }
     
     #navBar{
         position: absolute;
