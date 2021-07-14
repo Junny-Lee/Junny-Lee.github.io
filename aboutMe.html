@@ -8,7 +8,34 @@
     <title>Junny Lee</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <!-- emailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_89m46EDtVRQ4lbAI9TRlA');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.from_name.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_88wfll3', 'template_00v648k', this, 'user_89m46EDtVRQ4lbAI9TRlA')
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        // empty out the form AFTER success!
+                        document.getElementById('name').value='';
+                        document.getElementById('from_email').value='';
+                        document.getElementById('message').value='';
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body id="bigBody">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -63,18 +90,30 @@
 
             My training as a full-stack software engineer is over,  and I am thrilled for what's in store for me. I am excited to build, build, and build!<br><br>
 
-            Feel free to reach out via <a href="mailto:junny1997@gmail.com">
-                <i class="fas fa-envelope-open"></i>email</a>!<br><br>
+            <!-- Feel free to reach out via <a href="mailto:junny1997@gmail.com"><i class="fas fa-envelope-open"></i>email</a>! -->
+            <br>
+            
+            <p id="emailJS">Want to get in touch?</p>
+            <form id="contact-form">
+                <input type="hidden" name="from_name" class="form-control">
+                <div class="form-group">
+                    <input type="text" name="user_name" class="form-control" placeholder="Full name" id="name">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="from_email" class="form-control" placeholder="Email" id="from_email">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" class="form-control" placeholder="Message" id="message"></textarea>
+                </div>
+                <!-- <input type="submit" value="Send" class="btn btn-primary"> -->
+                <div class="cont">
+                    <!-- <button class="btn" onclick="emptyForm()"><span>Send</span><img id="sendImg" src="https://img.icons8.com/windows/30/d3295f/--checkmark-yes.png"/></button> -->
+                    <button class="btn"><span>Send</span><img id="sendImg" src="https://img.icons8.com/flat-round/40/000000/checkmark.png"/></button>
+
+                </div><br>
+            </form><br>
         </div>
         <br><br>
-        <!-- <div id="navBar">
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-secondary"><a href="myJourney.html" class="barLinks">MyJourney</a></button>
-                <button type="button" class="btn btn-secondary"><a href="quizApp.html" class="barLinks">QuizApp</a></button>
-                <button type="button" class="btn btn-secondary"><a href="wanderLust.html" class="barLinks">WanderLust</a></button>
-                <button type="button" class="btn btn-secondary"><a href="fastChat.html" class="barLinks">FastChat</a></button>
-            </div>
-        </div> -->
     </div>
 </body>
 </html>

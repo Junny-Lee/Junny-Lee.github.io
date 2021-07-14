@@ -65,7 +65,7 @@
         width: 85%;
         position: absolute;
         top: 47%;
-        transform: translate(10%, 0);
+        transform: translate(8%, 0);
         text-align: left;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -143,6 +143,130 @@
     #intro{
         font-size: 22px;
     }
+
+    #emailJS{
+        font-size: 24px;
+        color: #d3295f;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .form-control{
+        padding: 0.8rem 1rem;
+    }
+
+    /* for Get In Touch Button */
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: #d3295f;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: #d3295f;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    
+    input, button, submit {
+        border: none
+        }
+    
+    .cont {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 4%;
+        margin-top: 0px;
+        margin-left: -10px;
+        }
+    
+    button {
+        border-width: 1px;
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+        /* background: #fff; */
+        position: absolute;
+        border: 5px solid #d3295f;
+        }
+    
+    button > span {
+        font-size: 22px;
+        color: #d3295f;
+        }
+    
+    #sendImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0
+        }
+    
+    button:focus {
+        /*animation*/
+        -webkit-animation: extend 1s ease-in-out;
+        -ms-animation: extend 1s ease-in-out;
+        animation: extend 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > span {
+        /*animation*/
+        -webkit-animation: disappear 1s ease-in-out;
+        -ms-animation: disappear 1s ease-in-out;
+        animation: disappear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > img {
+        /*animation*/
+        -webkit-animation: appear 1s ease-in-out;
+        -ms-animation: appear 1s ease-in-out;
+        animation: appear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
 }
 
 @media only screen and (min-width: 720px){
@@ -210,12 +334,13 @@
         width: 50%;
         position: absolute;
         top: 54%;
-        transform: translate(54%, 0);
+        /* transform: translate(54%, 0); */
+        transform: translate(50%, 0);
         text-align: left;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
         font-size: 20px;
-        margin-bottom: 2%;
+        /* margin-bottom: 2%; */
         padding: 1.5%;
     }
 
@@ -268,7 +393,7 @@
     
     #email{
         margin: 1% 0% 1% 0%;
-        font-size: 22px;
+        font-size: 20px;
         text-decoration: none;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -291,4 +416,128 @@
     #intro{
         font-size: 22px;
     }
+
+    #emailJS{
+        font-size: 24px;
+        color: #d3295f;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .form-control{
+        padding: 0.8rem 1rem;
+    }
+
+    /* for Get In Touch Button */
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: #d3295f;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: #d3295f;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    
+    input, button, submit {
+        border: none
+        }
+    
+    .cont {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 6%;
+        margin-top: 0px;
+        margin-left: -25px;
+        }
+    
+    button {
+        border-width: 1px;
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+        /* background: #fff; */
+        position: absolute;
+        border: 5px solid #d3295f;
+        }
+    
+    button > span {
+        font-size: 22px;
+        color: #d3295f;
+        }
+    
+    #sendImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0
+        }
+    
+    button:focus {
+        /*animation*/
+        -webkit-animation: extend 1s ease-in-out;
+        -ms-animation: extend 1s ease-in-out;
+        animation: extend 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > span {
+        /*animation*/
+        -webkit-animation: disappear 1s ease-in-out;
+        -ms-animation: disappear 1s ease-in-out;
+        animation: disappear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > img {
+        /*animation*/
+        -webkit-animation: appear 1s ease-in-out;
+        -ms-animation: appear 1s ease-in-out;
+        animation: appear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
 }
