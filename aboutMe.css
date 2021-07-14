@@ -51,7 +51,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 24%;
+        top: 21%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -64,7 +64,7 @@
     #aboutMe{
         width: 85%;
         position: absolute;
-        top: 48%;
+        top: 47%;
         transform: translate(10%, 0);
         text-align: left;
         color: #4a4d4e;
@@ -196,7 +196,7 @@
     #body{
         width: 100%;
         position: absolute;
-        top: 24%;
+        top: 21%;
         text-align: center;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -209,7 +209,7 @@
     #aboutMe{
         width: 50%;
         position: absolute;
-        top: 55%;
+        top: 54%;
         transform: translate(54%, 0);
         text-align: left;
         color: #4a4d4e;
