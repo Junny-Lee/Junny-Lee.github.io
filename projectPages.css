@@ -42,7 +42,8 @@
         border-top:rgba(0,0,0,.125) solid 1px;
         border-bottom: rgba(0,0,0,.125) solid 1px;
         padding: 3% 5%;
-        margin: 6% 0% 2% 0%;
+        /* margin: 6% 0% 2% 0%; */
+        margin: 1.4% 0% 0% 0%;
     }
 
     #links, #links:hover{
@@ -52,6 +53,9 @@
     }
 
     .projTitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: 'RaphaelIcons';
         color: #d3295f;
         font-size: 25px;
@@ -132,7 +136,8 @@
         border-top:rgba(0,0,0,.125) solid 1px;
         border-bottom: rgba(0,0,0,.125) solid 1px;
         padding: 3% 5%;
-        margin: 2% 0% 0% 0%;
+        /* margin: 2% 0% 0% 0%; */
+        margin: 1.4% 0% 0% 0%;
     }
 
     #links, #links:hover{

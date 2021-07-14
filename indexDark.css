@@ -4,6 +4,10 @@
 }
 @media only screen and (min-width: 200px){
 
+    #bigBody{
+        background-color: #19181a;
+    }
+
     @keyframes fadeInAnimation {
         0% {
             opacity: 0;
@@ -37,10 +41,10 @@
     }
 
     .topNavLinks, .topNavLinks:hover{
-        margin: 0 17px;
+        margin: 0 16px;
         font-family: 'RaphaelIcons';
         text-decoration: none;
-        color: #4a4d4e;
+        color: #ffffffce;
         font-size: 18px;
     }
     
@@ -50,7 +54,7 @@
         top: 37%;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        color: #4a4d4e;
+        color: #ffffffce;
         font-family: 'RaphaelIcons';
     }
 
@@ -94,7 +98,7 @@
         margin: 1% 0% 1% 0%;
         font-size: 22px;
         text-decoration: none;
-        color: #4a4d4e;
+        color: #ffffffce;
     }
 
     #email:hover{
@@ -117,7 +121,7 @@
 
     #me{
         font-family: 'RaphaelIcons';
-        color: #4a4d4e;
+        color: #ffffffce;
         font-size: 15px;
     }
     
@@ -125,7 +129,7 @@
         font-size: 18px;
         padding: 0% 4%;
         font-family: 'RaphaelIcons';
-        color: #4a4d4e;
+        color: #ffffffce;
     }
 
     #introBreak{
@@ -133,7 +137,7 @@
     }
 
     #aboutMeLink, #projectLink{
-        color: #4a4d4e;
+        color: #ffffffce;
         text-decoration: none; 
     }
 
@@ -145,6 +149,10 @@
 }
 
 @media only screen and (min-width: 720px){
+
+    #bigBody{
+        background-color: #19181a;
+    }
 
     @keyframes fadeInAnimation {
         0% {
@@ -166,6 +174,7 @@
         justify-content: center;
         position: relative;
         width: 100%;
+        margin-top: 10px;
     }
 
     #header:hover{
@@ -180,10 +189,10 @@
     }
 
     .topNavLinks, .topNavLinks:hover{
-        margin: 0 18px;
+        margin: 0 22px;
         font-family: 'RaphaelIcons';
         text-decoration: none;
-        color: #4a4d4e;
+        color: #ffffffce;
         font-size: 19px;
     }
 
@@ -193,7 +202,7 @@
         top: 37%;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-        color: #4a4d4e;
+        color: #ffffffce;
         font-family: 'RaphaelIcons';
     }
 
@@ -237,7 +246,7 @@
         margin: 1% 0% 1% 0%;
         font-size: 22px;
         text-decoration: none;
-        color: #4a4d4e;
+        color: #ffffffce;
     }
 
     #email:hover{
@@ -260,14 +269,14 @@
 
     #me{
         font-family: 'RaphaelIcons';
-        color: #4a4d4e;
+        color: #ffffffce;
         font-size: 16px;
     }
     
     .intro{
         font-size: 19px;
         font-family: 'RaphaelIcons';
-        color: #4a4d4e;
+        color: #ffffffce;
         padding: 0% 2%;
     }
 
@@ -276,7 +285,7 @@
     }
 
     #aboutMeLink, #projectLink{
-        color: #4a4d4e;
+        color: #ffffffce;
         text-decoration: none; 
     }
 
@@ -285,4 +294,10 @@
         text-decoration: none; 
     }
 
+    /* .btn.btn-link:active+#bigBody{
+        background-color: #171227;
+    } */
+
 }
+
+/* grayish color: 4a4d4e */

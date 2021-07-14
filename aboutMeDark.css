@@ -2,7 +2,12 @@
     padding: 0px;
     margin: 0px;
 }
+
 @media only screen and (min-width: 200px){
+
+    #bigBody{
+        background-color: #19181a;
+    }
 
     @keyframes fadeInAnimation {
         0% {
@@ -26,32 +31,58 @@
         width: 100%;
     }
 
-    #header:hover{
+    #sun{
+        text-align: center;
+    }
+
+    #backButton, #backButton:hover{
+        color: #fcb511a1;
+        text-decoration: none;
+        font-family: 'RaphaelIcons';
+        margin: 2% 0% 2% 0%;
+        padding-top: 5%;
+        font-size: 18px;
+    }
+
+    #sun:hover{
         opacity: 50%;
     }
 
-    #topNav{
-        display: flex;
-        justify-content: center;
-        margin: 2% 0% 2% 0%;
-    }
-
-    .topNavLinks, .topNavLinks:hover{
-        margin: 0 17px;
-        font-family: 'RaphaelIcons';
-        text-decoration: none;
-        color: #4a4d4e;
-        font-size: 18px;
-    }
-    
     #body{
         width: 100%;
         position: absolute;
-        top: 37%;
+        top: 24%;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #4a4d4e;
+        color: #ffffffce;
         font-family: 'RaphaelIcons';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+    }
+    
+    #aboutMe{
+        width: 85%;
+        position: absolute;
+        top: 48%;
+        transform: translate(10%, 0);
+        text-align: left;
+        color: #ffffffce;
+        font-family: 'RaphaelIcons';
+        font-size: 18px;
+        margin-bottom: 2%;
+        padding: 1.5%;
+    }
+
+    #myPic {
+        width: 135px;
+        border: 3px solid #ffffffce;
+        border-radius: 5px;
+    }
+
+    #namePronounciation{
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
     }
 
     .typewriter {
@@ -66,7 +97,7 @@
         letter-spacing: 2px;
         animation: typing 5s steps(30, end), blink .75s step-end infinite;
         white-space: nowrap;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700;
         border-right: 4px solid orange;
         box-sizing: border-box;
@@ -93,12 +124,6 @@
     #email{
         margin: 1% 0% 1% 0%;
         font-size: 22px;
-        text-decoration: none;
-        color: #4a4d4e;
-    }
-
-    #email:hover{
-        text-shadow: 0 0 15px #fcb411;
     }
     
     #gitHubLinkedIn{
@@ -114,37 +139,17 @@
         color: #d3295f;
         font-family: 'RaphaelIcons';
     }
-
-    #me{
-        font-family: 'RaphaelIcons';
-        color: #4a4d4e;
-        font-size: 15px;
-    }
     
-    .intro{
-        font-size: 18px;
-        padding: 0% 4%;
-        font-family: 'RaphaelIcons';
-        color: #4a4d4e;
+    #intro{
+        font-size: 22px;
     }
-
-    #introBreak{
-        display: none;
-    }
-
-    #aboutMeLink, #projectLink{
-        color: #4a4d4e;
-        text-decoration: none; 
-    }
-
-    #aboutMeLink:hover, #projectLink:hover{
-        text-shadow: 0 0 15px #fcb411;
-        text-decoration: none; 
-    }
-
 }
 
 @media only screen and (min-width: 720px){
+
+    #bigBody{
+        background-color: #19181a;
+    }
 
     @keyframes fadeInAnimation {
         0% {
@@ -156,7 +161,7 @@
     }
 
     #main{
-        animation: fadeInAnimation ease 2s;
+        animation: fadeInAnimation ease 1s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
     }
@@ -168,33 +173,61 @@
         width: 100%;
     }
 
-    #header:hover{
-        opacity: 50%;
-    }
-    
-    #topNav{
-        display: flex;
-        justify-content: center;
-        margin: 2% 0% 2% 0%;
-        align-items: center;
+    #sun{
+        text-align: center;
     }
 
-    .topNavLinks, .topNavLinks:hover{
-        margin: 0 18px;
-        font-family: 'RaphaelIcons';
+    #navBar{
+        margin:auto;
+    }
+
+    #backButton, #backButton:hover{
+        color: #fcb511a1;
         text-decoration: none;
-        color: #4a4d4e;
+        font-family: 'RaphaelIcons';
+        padding-top: 5%;
         font-size: 19px;
     }
 
+    #sun:hover{
+        opacity: 50%;
+    }
+    
     #body{
         width: 100%;
         position: absolute;
-        top: 37%;
+        top: 24%;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #4a4d4e;
+        color: #ffffffce;
         font-family: 'RaphaelIcons';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    #aboutMe{
+        width: 50%;
+        position: absolute;
+        top: 55%;
+        transform: translate(54%, 0);
+        text-align: left;
+        color: #ffffffce;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        margin-bottom: 2%;
+        padding: 1.5%;
+    }
+
+    #myPic{
+        width: 210px;
+        border: 4px solid #ffffffce;
+        border-radius: 5px;
+    }
+
+    #namePronounciation{
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
     }
 
     .typewriter {
@@ -237,11 +270,8 @@
         margin: 1% 0% 1% 0%;
         font-size: 22px;
         text-decoration: none;
-        color: #4a4d4e;
-    }
-
-    #email:hover{
-        text-shadow: 0 0 15px #fcb411;
+        color: #ffffffce;
+        font-family: 'RaphaelIcons';
     }
     
     #gitHubLinkedIn{
@@ -257,32 +287,8 @@
         color: #d3295f;
         font-family: 'RaphaelIcons';
     }
-
-    #me{
-        font-family: 'RaphaelIcons';
-        color: #4a4d4e;
-        font-size: 16px;
-    }
     
-    .intro{
-        font-size: 19px;
-        font-family: 'RaphaelIcons';
-        color: #4a4d4e;
-        padding: 0% 2%;
+    #intro{
+        font-size: 22px;
     }
-
-    #introBreak{
-        display: block;
-    }
-
-    #aboutMeLink, #projectLink{
-        color: #4a4d4e;
-        text-decoration: none; 
-    }
-
-    #aboutMeLink:hover, #projectLink:hover{
-        text-shadow: 0 0 15px #fcb411;
-        text-decoration: none; 
-    }
-
 }
