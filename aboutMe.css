@@ -65,7 +65,7 @@
         width: 85%;
         position: absolute;
         top: 47%;
-        transform: translate(8%, 0);
+        transform: translate(9%, 0);
         text-align: left;
         color: #4a4d4e;
         font-family: 'RaphaelIcons';
@@ -151,6 +151,10 @@
         font-weight: 600;
     }
 
+    #contact-form{
+        align-items: center;
+    }
+
     .form-control{
         padding: 0.8rem 1rem;
     }
@@ -204,11 +208,11 @@
     .cont {
         position: absolute;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        bottom: 4%;
+        /* display: flex;
+        justify-content: center; */
+        /* bottom: 4%; */
         margin-top: 0px;
-        margin-left: -10px;
+        /* margin-left: 90px; */
         }
     
     button {
@@ -216,7 +220,6 @@
         width: auto;
         height: auto;
         border-radius: 3px;
-        /* background: #fff; */
         position: absolute;
         border: 5px solid #d3295f;
         }
@@ -224,6 +227,7 @@
     button > span {
         font-size: 22px;
         color: #d3295f;
+        font-weight: 600;
         }
     
     #sendImg {
@@ -479,9 +483,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        bottom: 6%;
+        bottom: 4%;
         margin-top: 0px;
-        margin-left: -25px;
+        margin-left: -31px;
         }
     
     button {
