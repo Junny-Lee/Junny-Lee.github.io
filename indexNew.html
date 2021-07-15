@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexNew.css">
+    <title>Junny Lee</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- emailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_89m46EDtVRQ4lbAI9TRlA');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.from_name.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_88wfll3', 'template_00v648k', this, 'user_89m46EDtVRQ4lbAI9TRlA')
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        // empty out the form AFTER success!
+                        document.getElementById('name').value='';
+                        document.getElementById('from_email').value='';
+                        document.getElementById('message').value='';
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+    <style>
+        /* body {
+            background-color: #140829;
+            color: white;
+            transition: background-color 3s;
+        }
+
+        body.changeColor {
+            background-color: white;
+            color: black;
+        } */
+
+        body {
+            min-height: 3000px; /* Used to enable scrolling */
+            /* background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%); */
+            background: linear-gradient(55deg, #d5bcd6 0%, #d8d0d9 51%, #98bed6 85%);
+            /* background: linear-gradient(55deg, #df6569 0%, #acc8be 51%, #23747c 85%); */
+        }
+
+        .intro,
+        .outro {
+            min-height: 35rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'RaphaelIcons';
+        }
+    </style>
+</head>
+<body id="bigBody">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- <div id="header">
+        <a href="index.html"><img src="https://img.icons8.com/doodle/100/000000/sun--v1.png"/></a>
+    </div> -->
+
+    <div id="topNav">
+        <!-- <a href="indexNew.html" class="topNavLinks">h o m e</a> -->
+        <a href="#myImage" class="topNavLinks">a b o u t</a>
+        <a href="#projectsSection" class="topNavLinks">p r o j e c t s</a>
+        <a href="#emailJS" class="topNavLinks">c o n t a c t</a>
+        <!-- <a href="indexDark.html" class="topNavLinks"><img src="https://img.icons8.com/ios/22/000000/moon-symbol.png"/></a> -->
+    </div>
+
+    <div class="intro">
+        <h1>J u n n y &nbsp L e e</h1>
+        <h2>Software Engineer, Southern California</h2>
+    </div>
+    <div class="intro">
+        <p id="gitHubLinkedIn">
+            <a href="https://github.com/Junny-Lee">
+                <img src="https://img.icons8.com/material-outlined/30/000000/github.png"/>
+            </a> 
+            &nbsp&nbsp
+            <a href="https://linkedin.com/in/junny-lee">
+                <img src="https://img.icons8.com/small/30/000000/linkedin.png"/>
+            </a>
+        </p>
+    </div>
+    <div class="intro" id="myImage">
+        <img id="myPic" src="me.png"/>
+        <p id="namePronounciation">(joo - nee)</p>
+    </div>
+
+    <div class="intro">
+        <div id="aboutMe">
+            <p class="sectionHeadings">Hello hello!</p class="sectionHeadings">
+            I'm Junny.<br><br>
+
+            Currently looking for a full-time position in software engineering or full-stack / backend / frontend development, based in <img src="https://img.icons8.com/color/24/fa314a/map-pin.png"/> <a href="https://en.wikipedia.org/wiki/Santa_Barbara,_California">Santa Barbara</a> and <a href="https://en.wikipedia.org/wiki/Los_Angeles">Los Angeles</a>. Alumna of <a href="https://en.wikipedia.org/wiki/Dartmouth_College">Dartmouth College</a>.<br><br>
+
+            I have a technical background and a constantly growing interest in software engineering. <br><br>
+
+            My first job out of college was at <a href="https://en.wikipedia.org/wiki/Amazon_Alexa">Amazon Alexa</a>, where I worked as a <a href="https://en.wikipedia.org/wiki/Knowledge_engineer">Knowledge Engineer</a>. 
+            I got to work on Alexa with all the resources that Amazon had to offer in a unique start-up culture. (The office in Santa Barbara that I worked out of was originally a start-up called <a href="https://en.wikipedia.org/wiki/Graphiq">Graphiq</a> that got acquired by Amazon in 2017.)
+            As a Knowledge Engineer, I analyzed a ton of customer data, taking ownership of projects with the ultimate goal of earning customer trust and improving and retaining their daily interactions with their Alexa devices. <br><br>
+            My time at Amazon was been extremely rewarding as I grew both professionally and personally. But, I realized that although I was fascinated by the technology I was working with and the people I was surrounded by, I wasn’t satisfied with the breadth of what I got to do on the job. 
+            I wanted more hands-on experience with coding and the ability to become more creative with it while constantly putting my problem-solving skills to test. 
+            Shortly after wrapping up my year at Alexa, I decided to resign and enroll in an immersive coding bootcamp to pursue my interest in this field. <br><br>
+
+            My training as a full-stack software engineer is over,  and I am thrilled for what's in store for me. I am excited to build, build, and build!<br><br>
+
+            <!-- Feel free to reach out via <a href="mailto:junny1997@gmail.com"><i class="fas fa-envelope-open"></i>email</a>! -->
+            <br>
+        </div>
+    </div>
+    <!-- <div class="intro">
+        <p id="emailJS">Want to get in touch?</p>
+        <form id="contact-form">
+            <input type="hidden" name="from_name" class="form-control form-control-lg">
+            <div class="form-group">
+                <input type="text" name="user_name" class="form-control form-control-lg" placeholder="Full name*" id="name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="from_email" class="form-control form-control-lg" placeholder="Email*" id="from_email">
+            </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control form-control-lg" placeholder="Message*" id="message"></textarea>
+            </div>
+            <div class="cont">
+                <button class="btn"><span>Send</span><img id="sendImg" src="https://img.icons8.com/flat-round/40/000000/checkmark.png"/></button>
+            </div><br>
+        </form><br>
+    </div> -->
+    <div class="intro">
+        <p id="emailJS">Want to get in touch?</p>
+        <form id="contact-form">
+            <input type="hidden" name="from_name" class="form-control form-control-lg">
+            <div class="form-row">
+                <div class="form-group col-md-12">
+                    <input name="user_name" type="text" class="form-control form-control-lg" placeholder="Full Name*" id="name">
+                </div>
+                <div class="form-group col-md-12">
+                    <input name="from_email" type="email" class="form-control form-control-lg" placeholder="Email*" id="from_email">
+                </div>
+                <div class="form-group col-md-12">
+                    <textarea name="message" type="text" class="form-control form-control-lg" placeholder="Message*" id="message"></textarea>
+                </div>
+            </div>
+            <!-- <button type="submit" class="btn btn-primary" id="sendButton">Send</button> -->
+            <button class="btn"><span>Send</span><img id="sendImg" src="https://img.icons8.com/flat-round/40/000000/checkmark.png"/></button>
+        </form>
+    </div>
+
+    <div class="intro" id="projectsSection">
+        <div id="listOfProjects">
+            <p class="sectionHeadings">Some of My Apps</p class="sectionHeadings">
+            <div class="projectCol">
+                <div class="projectDiv">
+                    <img class="projectImgs" src="MyJourney/squareFrontCover.png" alt="frontCover">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <div class="projectName">
+                        <p class="projectTitle">MyJourney</p>
+                        <a class="goToProject" href="myJourney.html">see details</a>
+                        <p class="projectDesc">Java/Spring Boot-based app for users to write private and public journals</p>
+                    </div>
+                </div>
+                <div class="projectDiv">
+                    <img class="projectImgs" src="QuizApp/squareQuizApp.png" alt="frontCover">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <div class="projectName">
+                        <p class="projectTitle">QuizApp</p>
+                        <a class="goToProject" href="quizApp.html">see details</a>
+                        <p class="projectDesc">A single-page application for a timed trivia game using React.js, MongoDB, Express and Node.js</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projectCol">
+                <div class="projectDiv">
+                    <img class="projectImgs" src="WanderLust/squareWanderLust.png" alt="frontCover">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <div class="projectName">
+                        <p class="projectTitle">WanderLust</p>
+                        <a class="goToProject" href="wanderLust.html">see details</a>
+                        <p class="projectDesc">Python/Django-based app for outdoor lovers to explore new and familiar places with like-minded people</p>
+                    </div>
+                </div>
+                <div class="projectDiv">
+                    <img class="projectImgs" src="FastChat/squareFastChat.png" alt="frontCover">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <div class="projectName">
+                        <p class="projectTitle">FastChat</p>
+                        <a class="goToProject" href="fastChat.html">see details</a>
+                        <p class="projectDesc">A single-page, real-time chat app using Socket.io, React.js, MongoDB, Express and Node.js</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</body>
+</html>

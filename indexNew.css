@@ -1,0 +1,751 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 200px){
+    #bigBody{
+        padding-left: 0%;
+    }
+
+    .intro h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .intro h2{
+        font-size: 17px;
+    }
+    
+    #header{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #header:hover{
+        opacity: 50%;
+    }
+    
+    #topNav{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0% 2% 0%;
+        align-items: center;
+        /* padding-left: 2px; */
+    }
+    
+    .topNavLinks, .topNavLinks:hover{
+        margin: 0 15px;
+        font-family: 'RaphaelIcons';
+        text-decoration: none;
+        /* color: black; */
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    #gitHubLinkedIn{
+        margin: 1% 0% 1% 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #gitHubLinkedIn a{
+        text-decoration: none;
+    }
+    
+    #myPic{
+        width: 200px;
+        border: 4px solid black;
+        border-radius: 5px;
+    }
+    
+    #namePronounciation{
+        font-family: 'RaphaelIcons';
+        font-size: 28px;
+    }
+    
+    #aboutMe{
+        width: 60%;
+        text-align: left;
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
+        padding: 1.5%;
+    }
+    
+    #emailJS{
+        font-size: 30px;
+        color: black;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+    
+    .form-control{
+        padding: 0.8rem 1rem;
+        margin: 0.8rem 1rem;
+    }
+
+    /* for Get In Touch Button */
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    
+    input, button {
+        border: none
+        }
+    
+    .cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 4%;
+        margin-top: 0px;
+        /* margin-left: -31px; */
+        }
+    
+    button {
+        border-width: 1px;
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+        border: 5px solid black;
+        }
+    
+    button > span {
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+        }
+    
+    #sendImg {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0
+        }
+    
+    button:focus {
+        /*animation*/
+        -webkit-animation: extend 1s ease-in-out;
+        -ms-animation: extend 1s ease-in-out;
+        animation: extend 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > span {
+        /*animation*/
+        -webkit-animation: disappear 1s ease-in-out;
+        -ms-animation: disappear 1s ease-in-out;
+        animation: disappear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > img {
+        /*animation*/
+        -webkit-animation: appear 1s ease-in-out;
+        -ms-animation: appear 1s ease-in-out;
+        animation: appear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    #listOfProjects{
+        display:block;
+        padding: 0.4% 5%;
+    }
+
+    .projectDiv{
+        display: flex;
+        justify-content: center;
+        margin: 2% auto;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+        max-width: 50%;
+        padding: 0.7% 0% 3% 0%;
+    }
+
+    .projectImgs{
+        width: 300px;
+    }
+
+    .projectTitle{
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 1%;
+    }
+
+    .goToProject{
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+    }
+
+    .goToProject:hover{
+        text-decoration: none;
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        text-shadow: 0 0 15px white;
+    }
+
+    .projectDesc{
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 2%;
+    }
+
+    .projectCol{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionHeadings{
+        font-size: 28px;
+        color: black;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+    
+    /* for Get In Touch Button */
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    
+    input, button, submit {
+        border: none
+        }
+    
+    .cont {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 4%;
+        margin-top: 0px;
+        margin-left: -31px;
+        }
+    
+    button {
+        border-width: 1px;
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+        /* background: #fff; */
+        position: absolute;
+        border: 5px solid black;
+        }
+    
+    button > span {
+        font-size: 22px;
+        color: black;
+        }
+    
+    #sendImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0
+        }
+    
+    button:focus {
+        /*animation*/
+        -webkit-animation: extend 1s ease-in-out;
+        -ms-animation: extend 1s ease-in-out;
+        animation: extend 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > span {
+        /*animation*/
+        -webkit-animation: disappear 1s ease-in-out;
+        -ms-animation: disappear 1s ease-in-out;
+        animation: disappear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > img {
+        /*animation*/
+        -webkit-animation: appear 1s ease-in-out;
+        -ms-animation: appear 1s ease-in-out;
+        animation: appear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    .btn{
+        left: 47.5%;
+    }
+}
+
+@media only screen and (min-width: 720px){
+
+    #bigBody{
+        padding-left: 0%;
+    }
+
+    .intro h1{
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .intro h2{
+        font-size: 30px;
+    }
+    
+    #header{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #header:hover{
+        opacity: 50%;
+    }
+    
+    #topNav{
+        display: flex;
+        justify-content: center;
+        margin: 2% 0% 2% 0%;
+        align-items: center;
+    }
+    
+    .topNavLinks, .topNavLinks:hover{
+        margin: 0 18px;
+        font-family: 'RaphaelIcons';
+        text-decoration: none;
+        /* color: black; */
+        color: black;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    
+    #gitHubLinkedIn{
+        margin: 1% 0% 1% 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #gitHubLinkedIn a{
+        text-decoration: none;
+    }
+    
+    #myPic{
+        width: 240px;
+        border: 4px solid black;
+        border-radius: 5px;
+    }
+    
+    #namePronounciation{
+        font-family: 'RaphaelIcons';
+        font-size: 30px;
+    }
+    
+    #aboutMe{
+        width: 60%;
+        text-align: left;
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 24px;
+        padding: 1.5%;
+    }
+    
+    #emailJS{
+        font-size: 30px;
+        color: black;
+        padding-bottom: 5px;
+        font-weight: 600;
+    }
+    
+    .form-control{
+        padding: 0.8rem 1rem;
+    }
+    
+    /* for Get In Touch Button */
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    
+    input, button {
+        border: none
+        }
+    
+    .cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 4%;
+        margin-top: 0px;
+        /* margin-left: -31px; */
+        }
+    
+    button {
+        border-width: 1px;
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+        border: 5px solid black;
+        }
+    
+    button > span {
+        font-size: 24px;
+        font-weight: 600;
+        color: black;
+        }
+    
+    #sendImg {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0
+        }
+    
+    button:focus {
+        /*animation*/
+        -webkit-animation: extend 1s ease-in-out;
+        -ms-animation: extend 1s ease-in-out;
+        animation: extend 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > span {
+        /*animation*/
+        -webkit-animation: disappear 1s ease-in-out;
+        -ms-animation: disappear 1s ease-in-out;
+        animation: disappear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > img {
+        /*animation*/
+        -webkit-animation: appear 1s ease-in-out;
+        -ms-animation: appear 1s ease-in-out;
+        animation: appear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    #listOfProjects{
+        display:block;
+        padding: 0.4% 5%;
+    }
+
+    .projectDiv{
+        display: flex;
+        justify-content: center;
+        margin: 2% auto;
+        border-bottom: rgba(0,0,0,.125) solid 1px;
+        max-width: 50%;
+        padding: 0.7% 0% 3% 0%;
+    }
+
+    .projectImgs{
+        width: 300px;
+    }
+
+    .projectTitle{
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 1%;
+    }
+
+    .goToProject{
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+    }
+
+    .goToProject:hover{
+        text-decoration: none;
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 20px;
+        text-shadow: 0 0 15px white;
+    }
+
+    .projectDesc{
+        color: black;
+        font-family: 'RaphaelIcons';
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 2%;
+    }
+
+    .projectCol{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionHeadings{
+        font-size: 30px;
+    color: black;
+    padding-bottom: 5px;
+    font-weight: 600;
+    }
+
+
+
+
+    /* for Get In Touch Button */
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @keyframes disappear {
+        0% {
+            opacity: 1;
+            } 20% {
+            color: black;
+            } 100% {
+            opacity: 0;
+            }
+        }
+    @-webkit-keyframes {
+    }
+    @-webkit-keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    @keyframes appear {
+        0% {
+            opacity: 0;
+            } 70% {
+            opacity: 0;
+            } 100% {
+            opacity: 1;
+            }
+        }
+    
+    input, button, submit {
+        border: none
+        }
+    
+    .cont {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 4%;
+        margin-top: 0px;
+        margin-left: -31px;
+        }
+    
+    button {
+        border-width: 1px;
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+        /* background: #fff; */
+        position: absolute;
+        border: 5px solid black;
+        }
+    
+    button > span {
+        font-size: 22px;
+        color: black;
+        }
+    
+    #sendImg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        opacity: 0
+        }
+    
+    button:focus {
+        /*animation*/
+        -webkit-animation: extend 1s ease-in-out;
+        -ms-animation: extend 1s ease-in-out;
+        animation: extend 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > span {
+        /*animation*/
+        -webkit-animation: disappear 1s ease-in-out;
+        -ms-animation: disappear 1s ease-in-out;
+        animation: disappear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    button:focus > img {
+        /*animation*/
+        -webkit-animation: appear 1s ease-in-out;
+        -ms-animation: appear 1s ease-in-out;
+        animation: appear 1s ease-in-out;
+        -webkit-animation-fill-mode: forwards;
+        /* Chrome, Safari, Opera */
+        animation-fill-mode: forwards
+        }
+    
+    .btn{
+        left: 47.5%;
+    }
+
+}    
