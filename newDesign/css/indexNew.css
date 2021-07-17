@@ -87,6 +87,12 @@
         margin: 0.8rem 1rem;
     }
 
+    /* .form-group{
+        margin: 0 auto;
+        float: none;
+        width: 80%;
+    } */
+
     /* for Get In Touch Button */
     @-webkit-keyframes {
     }
@@ -456,12 +462,6 @@
     
     .form-control{
         padding: 0.8rem 1rem;
-    }
-
-    .form-group.col-md-12{
-        margin: 0 auto;
-        float: none;
-        width: 50%;
     }
     
     /* for Get In Touch Button */
