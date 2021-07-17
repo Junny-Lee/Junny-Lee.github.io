@@ -37,17 +37,6 @@
         }
     </script>
     <style>
-        /* body {
-            background-color: #140829;
-            color: white;
-            transition: background-color 3s;
-        }
-
-        body.changeColor {
-            background-color: white;
-            color: black;
-        } */
-
         body {
             min-height: 3000px; /* Used to enable scrolling */
             /* background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%); */
@@ -64,6 +53,13 @@
             align-items: center;
             font-family: 'RaphaelIcons';
         }
+
+        html,body {
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+        }
     </style>
 </head>
 <body id="bigBody">
@@ -71,16 +67,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <!-- <div id="header">
-        <a href="index.html"><img src="https://img.icons8.com/doodle/100/000000/sun--v1.png"/></a>
-    </div> -->
-
     <div id="topNav">
-        <!-- <a href="indexNew.html" class="topNavLinks">h o m e</a> -->
         <a href="#myImage" class="topNavLinks">a b o u t</a>
         <a href="#projectsSection" class="topNavLinks">p r o j e c t s</a>
         <a href="#emailJS" class="topNavLinks">c o n t a c t</a>
-        <!-- <a href="indexDark.html" class="topNavLinks"><img src="https://img.icons8.com/ios/22/000000/moon-symbol.png"/></a> -->
     </div>
 
     <div class="intro">
@@ -120,34 +110,15 @@
             Shortly after wrapping up my year at Alexa, I decided to resign and enroll in an immersive coding bootcamp to pursue my interest in this field. <br><br>
 
             My training as a full-stack software engineer is over,  and I am thrilled for what's in store for me. I am excited to build, build, and build!<br><br>
-
-            <!-- Feel free to reach out via <a href="mailto:junny1997@gmail.com"><i class="fas fa-envelope-open"></i>email</a>! -->
             <br>
         </div>
     </div>
-    <!-- <div class="intro">
-        <p id="emailJS">Want to get in touch?</p>
-        <form id="contact-form">
-            <input type="hidden" name="from_name" class="form-control form-control-lg">
-            <div class="form-group">
-                <input type="text" name="user_name" class="form-control form-control-lg" placeholder="Full name*" id="name">
-            </div>
-            <div class="form-group">
-                <input type="email" name="from_email" class="form-control form-control-lg" placeholder="Email*" id="from_email">
-            </div>
-            <div class="form-group">
-                <textarea name="message" class="form-control form-control-lg" placeholder="Message*" id="message"></textarea>
-            </div>
-            <div class="cont">
-                <button class="btn"><span>Send</span><img id="sendImg" src="https://img.icons8.com/flat-round/40/000000/checkmark.png"/></button>
-            </div><br>
-        </form><br>
-    </div> -->
     <div class="intro">
         <p id="emailJS">Want to get in touch?</p>
         <form id="contact-form">
             <input type="hidden" name="from_name" class="form-control form-control-lg">
             <div class="form-row">
+                <!-- <div class="form-group col-md-12"> -->
                 <div class="form-group col-md-12">
                     <input name="user_name" type="text" class="form-control form-control-lg" placeholder="Full Name*" id="name" required min-length="1">
                 </div>
@@ -162,7 +133,6 @@
             <button class="btn"><span>Send</span><img id="sendImg" src="https://img.icons8.com/flat-round/40/000000/checkmark.png"/></button>
         </form>
     </div>
-
     <div class="intro" id="projectsSection">
         <div id="listOfProjects">
             <p class="sectionHeadings">Some of My Apps</p class="sectionHeadings">
