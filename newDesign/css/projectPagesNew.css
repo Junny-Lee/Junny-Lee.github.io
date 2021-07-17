@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body{
+    background-color: #faf8f5;
+}
+
+#main{
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+#header:hover{
+    opacity: 50%;
+}
+
+#topNav{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0% 2% 0%;
+    align-items: center;
+}
+
+.topNavLinks, .topNavLinks:hover{
+    margin: 0 18px;
+    font-family: 'RaphaelIcons';
+    text-decoration: none;
+    /* color: #4a4d4e; */
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 5%;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf8f5;
+    padding: 3% 5%;
+    margin: 1.4% 0% 0% 0%;
+}
+
+#gitHubLink{
+    width: 40px;
+}
+
+.projTitle{
+    font-family: 'RaphaelIcons';
+    /* padding-left: 5%; */
+    color: black;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#MyJourney p, #WanderLust p, #QuizApp p, #FastChat p{
+    padding: 3% 5% 1% 5%;
+    font-family: 'RaphaelIcons';
+    font-size: 22px;
+}
+
+.myJournalImgs, .wanderLustImgs, .quizAppImgs, .fastChatImgs{
+    padding: 3px 1px 1px 0px;
+    margin-bottom: 1%;
+    margin: 0% 5% 0% 5%;
+    width: 90%;
+}
+
+#topTag{
+    font-family: 'RaphaelIcons';
+    margin-left: 5%;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+#topTag:hover{
+    text-shadow: 0 0 15px #d4b079;
+}
+
