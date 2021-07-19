@@ -212,7 +212,7 @@
         justify-content: center; */
         /* bottom: 4%; */
         margin-top: 0px;
-        /* margin-left: 90px; */
+        margin-left: 35%;
         }
     
     button {
@@ -485,7 +485,8 @@
         justify-content: center;
         bottom: 4%;
         margin-top: 0px;
-        margin-left: -16px;
+        /* margin-left: -16px; */
+        margin-left: -3%;
         }
     
     button {
