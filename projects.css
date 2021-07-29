@@ -190,7 +190,7 @@
 
     .projectDiv{
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         margin: 2% auto;
         border-bottom: rgba(0,0,0,.125) solid 1px;
         width: 65%;
